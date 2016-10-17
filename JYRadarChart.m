@@ -139,7 +139,7 @@
     
 	//draw attribute text
 	CGFloat height = [self.scaleFont lineHeight];
-    height = height * 2;
+    height = height * 1.5;
 	CGFloat padding = 2.0;
 	for (int i = 0; i < _numOfV; i++) {
 		NSString *attributeName = _attributes[i];
